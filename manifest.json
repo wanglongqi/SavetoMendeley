@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon_48.png",
+      "default_title": "Mendeley",
+      "name": "Click to add to Mendeley"
+   },
+   "description": "Click to add to Mendeley.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "manifest_version": 2,
+   "name": "Add to Mendely",
+   "permissions": ["http://*/*", "https://*/*" ],
+   "version": "0.1.0"
+}
